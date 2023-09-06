@@ -9,14 +9,14 @@ const seed = async () => {
 		// Seed campuses
 		const campuses = await Campus.bulkCreate([
 			{
-				name: "Penn State- University Park",
+				name: " University Park",
 				imageUrl:
 					"https://www.inquirer.com/resizer/VRR-s9z6WC32iQ7wHOky3fwMsb8=/arc-anglerfish-arc2-prod-pmn/public/2DFGN3FJ6VGWBLWKUE7T55STVM.jpg",
 				address: "201 Shields Bldg, University Park, PA 16802",
 				description: "State College Campus",
 			},
 			{
-				name: "Penn State- Harrisburg",
+				name: " Harrisburg",
 				imageUrl:
 					"https://www.psu.edu/psu-edu-assets/images/image-gallery/Harrisburg_LP_Olmsted_Building.jpg",
 				address: "777 W Harrisburg Pike, Middletown, PA 17057",
